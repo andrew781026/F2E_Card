@@ -4,25 +4,5 @@
 設計稿 : https://challenge.thef2e.com/user/2232#works-3011 - 第二關  
 其他人完成作品 : https://github.com/juojico/f2e-w2-freecell
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Demo
+- [Demo page](https://andrew781026.github.io/F2E_Card/#/about)

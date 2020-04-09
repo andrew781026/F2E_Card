@@ -4,12 +4,12 @@ const ghpages = require('gh-pages');
 
 const options = {
     branch: 'gh-pages',
-    repo: 'https://github.com/andrew781026/F2E_Card.git'
+    repo: 'https://github.com/andrew781026/F2E_Card.git' // project github repo
 };
 
-const callback = (e) => {
+const callback = err => {
 
-    if (e) console.error(e);
+    if (err) console.error(err);
     else console.log('publish success');
 };
 
