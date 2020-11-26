@@ -89,7 +89,7 @@
         },
         methods: {
             changePage() {
-                this.$emit('changePage', 'main');
+                this.$emit('change-page', 'main');
             }
         },
         data() {

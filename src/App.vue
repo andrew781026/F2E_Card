@@ -5,6 +5,11 @@
 </template>
 
 <style>
+
+    *{
+        user-select: none;
+    }
+
     body {
         margin: 0;
     }

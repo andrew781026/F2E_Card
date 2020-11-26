@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div class="root">
         <img src="../assets/startpage_bg.jpg" class="bg" alt="start_game"/>
         <div class="middle" >
             <div class="button" @click="changePage">START</div>
@@ -13,13 +13,25 @@
         name: "StartPage",
         methods: {
             changePage() {
-                this.$emit('changePage', 'main');
+                this.$emit('change-page', 'main');
             }
         }
     }
 </script>
 
 <style scoped>
+
+    .root {
+        position: absolute;
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: #2c2b50;
+        z-index: 3;
+    }
 
     .bg {
         width: 80vw;
